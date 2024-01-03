@@ -69,7 +69,12 @@ const AboutSection = () => {
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <div className="flex flex-col h-full">
-          <Image src={"/images/desk.jpeg"} width={500} height={500} />
+          <Image
+            src={"/images/desk.jpeg"}
+            width={500}
+            height={500}
+            alt="desk"
+          />
         </div>
 
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
