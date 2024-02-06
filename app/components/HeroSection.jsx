@@ -15,7 +15,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:leading-normal lg:text-7xl font-extrabold">
+          <h1 className="text-white mb-4 text-4xl sm:text-3xl lg:leading-normal lg:text-4xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-teal-500">
               Hello, I&apos;m{" "}
             </span>
@@ -28,7 +28,7 @@ const HeroSection = () => {
                 1000,
                 "coding in React and Next",
                 1000,
-                "learning new tech daily",
+                "learning new technologies everyday",
                 1000,
               ]}
               wrapper="span"
@@ -38,10 +38,7 @@ const HeroSection = () => {
             ;
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias,
-            nobis expedita, obcaecati vel error maiores est recusandae nulla
-            repellendus alias voluptas. Dolor optio atque ex suscipit debitis
-            similique officiis explicabo?
+            Browse this website to get to know more about my coding journey!
           </p>
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-700 to-teal-500 hover:bg-slate-200 text-white">

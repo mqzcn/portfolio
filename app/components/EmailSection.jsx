@@ -1,6 +1,8 @@
 "use client";
 import { useState } from "react";
 
+import { FloatButton } from "antd";
+
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
 
@@ -45,8 +47,8 @@ const EmailSection = () => {
         <p className="text[#ADB7BE] mb-4 max-w-md">
           I&apos;m currently looking for new opportunities, whilst learning new
           fron-end technologies and frameworks. I am also working towards Scrum
-          Master certification. Feel free to reach out to me if you have any
-          questions
+          Master-Certified certification. Feel free to reach out to me if you
+          have any questions.
         </p>
         <div className="socials flew flex-row gap-2"></div>
       </div>
@@ -112,6 +114,7 @@ const EmailSection = () => {
           )}
         </form>
       </div>
+      <FloatButton.BackTop tooltip={<div>Scroll to top</div>} />
     </section>
   );
 };
