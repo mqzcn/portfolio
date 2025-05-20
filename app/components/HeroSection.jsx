@@ -24,11 +24,15 @@ const HeroSection = () => {
               sequence={[
                 "Mazen",
                 1000,
-                "a web developer",
+                "a Software Engineer",
                 1000,
-                "coding in React and Next",
+                "skilled in Java and Scala",
                 1000,
-                "learning new technologies everyday",
+                "building full-stack applications",
+                1000,
+                "passionate about user-focused solutions",
+                1000,
+                "always learning and growing",
                 1000,
               ]}
               wrapper="span"
@@ -41,14 +45,11 @@ const HeroSection = () => {
             Browse this website to get to know more about my coding journey!
           </p>
           <div>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-700 to-teal-500 hover:bg-slate-200 text-white">
-              Hire Me
-            </button>
-            <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 to-teal-400 hover:bg-slate-700 text-white mt-3">
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
-              </span>
-            </button>
+            <Link href="/#contact" legacyBehavior>
+              <a className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-700 to-teal-500 hover:bg-slate-200 text-white">
+                Contact Me
+              </a>
+            </Link>
           </div>
         </motion.div>
         <motion.div
