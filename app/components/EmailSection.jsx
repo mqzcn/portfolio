@@ -7,7 +7,7 @@ const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
 
   const handleSubmit = async (e) => {
-    e.preventdefault();
+    e.preventDefault();
     const data = {
       email: e.target.email.value,
       subject: e.target.subject.value,
